@@ -1,11 +1,10 @@
-(function () {
+(function (startime = "Jul 16 2021 20:00:00 GMT+0530") {
     const second = 1000,
           minute = second * 60,
           hour = minute * 60,
           day = hour * 24;
   
-    let startime = "Jul 06 2021 20:30:00 GMT+0530",
-        prev = new Date(startime).getTime(),
+    let prev = new Date(startime).getTime(),
         x = setInterval(function() {    
   
           let now = new Date().getTime(),
@@ -30,5 +29,5 @@
             clearInterval(x);
           }
           //seconds
-        }, 0)                    // total_time_limit 
+        }, 1000)                    // total_time_limit 
 }());
