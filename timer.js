@@ -23,7 +23,7 @@
                 countdown = document.getElementById("countdown"),
                 content = document.getElementById("content");
   
-            headline.innerText = "It's my TheBigEvent!";
+            headline.innerText = "Times up!";
             countdown.style.display = "none";
             content.style.display = "block";
   
