@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Heed",
+  "description": "Blocks access to time-consuming websites",
+  "version": "1.0",
+  "icons": { "128": "icon.png" },
+  "options_page": "options.html",
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

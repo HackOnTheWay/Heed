@@ -1,14 +1,17 @@
-(function (startime = "Jul 16 2021 20:00:00 GMT+0530") {
+(function (startime = "Jul 16 2021 20:00:00 GMT+0530") { //accept from user
     const second = 1000,
           minute = second * 60,
           hour = minute * 60,
           day = hour * 24;
+
+    const time_limit = ["0005","0010","0015","0030","0100","0200",""]
   
     let prev = new Date(startime).getTime(),
         x = setInterval(function() {    
   
           let now = new Date().getTime(),
-              timer =  now - prev;
+              timer =  now - prev,
+              timeLimit = ;
   
           document.getElementById("days").innerText = Math.floor(timer / (day)),
           document.getElementById("hours").innerText = Math.floor((timer % (day)) / (hour)),
