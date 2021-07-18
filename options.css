@@ -6,6 +6,35 @@ body {
   padding: 50px;
   font-family: Calibri, Helvetica, Arial, sans-serif;
   line-height: 150%;
+  color: black;
+}
+h1 {
+  color: white;
+  border: 3px solid #39FF14;
+  margin: 30px;
+  border-radius: 8px;  
+}
+p {
+  color: gray;
+}
+#controls {
+  display: block;
+  margin: 15px;
+  padding: 12px 18px;
+  color: #DBF6E9;
+  border: 5px solid;
+  background-color: #39FF14;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: 2.0s;
+  font-family: 'EB Garamond', serif;
+  font: bold;
+}
+#credits {
+  color: white;
+  border: 1px solid #39FF14;
+  margin: 30px;
+  border-radius: 8px;  
 }
 body:not(.ready) #textarea::placeholder,
 body:not(.ready) #controls {
