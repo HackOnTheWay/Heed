@@ -1,0 +1,23 @@
+body {
+
+    width:300px;
+    
+    }
+    
+    .Start {
+    background-color: #f442cd;
+    border-color: #f442cd;
+    border-radius: 30%;
+    }
+    
+    .Pause {
+    background-color: #f4e349;
+    border-color: #f4e349;
+    border-radius: 30%;
+    }
+    
+    .Restart {
+    background-color: #38e054;
+    border-color: #38e054;
+    border-radius: 30%;
+    }
