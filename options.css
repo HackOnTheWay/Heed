@@ -4,18 +4,18 @@ html {
 body {
   margin: 0 auto;
   padding: 50px;
-  font-family: Calibri, Helvetica, Arial, sans-serif;
+  font-family: Arial;
   line-height: 150%;
+#heed {
+  background: linear-gradient(-45deg, #DBF6E9, black);
+  }
   color: black;
 }
 h1 {
   color: white;
-  border: 3px solid #39FF14;
-  margin: 30px;
-  border-radius: 8px;  
 }
 p {
-  color: gray;
+  color: white;
 }
 #controls {
   display: block;
@@ -27,7 +27,7 @@ p {
   font-size: 18px;
   border-radius: 4px;
   transition: 2.0s;
-  font-family: 'EB Garamond', serif;
+  font-family: Arial;
   font: bold;
 }
 #credits {
