@@ -1,16 +1,29 @@
-{   
- "manifest_version": 2,
+{
+  "manifest_version": 2,
   "name": "Heed",
   "description": "Focus Help Web Extension",
   "version": "1.0.0",
-  "icons": {"128": "HeedIcon_128.png"},
-  "browser_action": {
-      "default_icon": "HeedIcon.png",
-      "default_popup": "popup.html"
+  "icons": {
+    "16": "HeedIcon_16.png",
+    "48": "HeedIcon_48.png",
+    "128": "HeedIcon_128.png"
   },
-  "permissions": ["activeTab","storage", "tabs"],
+  "browser_action": {
+    "default_icon": "HeedIcon.png",
+    "default_popup": "options.html"
+  },
+  "permissions": [
+    "notifications",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }    
+    "scripts": [
+      "timer-bg.js",
+      "timer-bg-common.js",
+      "background.js"
+    ],
+    "persistent": true
+  }
 }
